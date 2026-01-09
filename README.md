@@ -40,7 +40,7 @@ netlify deploy --prod
 
 ## Customize
 
-- Replace `https://forms.gle/XXXX` in `index.html` with your actual Google Form URL
+-- The site's submit buttons link to the Google Form: https://docs.google.com/forms/d/e/1FAIpQLSdTDzOjJWSVX6L7drA56p6IOPKQg6GtECuKkJRtUYCWRXgJgA/viewform
 - Update social handle `@rang_e_alfaz` in footer
 - Replace placeholder images with your event photos
 

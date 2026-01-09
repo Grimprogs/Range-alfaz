@@ -63,5 +63,13 @@
     revealHero();
     setupSegmentObserver();
     setupButtonAccessibility();
+    // Try to play hero video (some browsers require a user gesture)
+    const vid = document.getElementById('heroVideo');
+    if(vid){
+      const tryPlay = () => { vid.play().catch(()=>{}); };
+      // attempt play on load and on first user interaction
+      tryPlay();
+      ['click','keydown','touchstart'].forEach(ev => document.addEventListener(ev, tryPlay, {once:true}));
+    }
   });
 })();
