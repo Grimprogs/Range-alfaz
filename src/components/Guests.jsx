@@ -1,10 +1,10 @@
 import React from 'react'
 
 const GUESTS = [
-  {name:'Amara Rizvi', role:'Poet', img:'https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=800&auto=format&fit=crop', bio:'A voice that speaks of forgotten dreams and unspoken truths.'},
-  {name:'Rohit Sen', role:'Reader', img:'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=800&auto=format&fit=crop', bio:'Words are his sanctuary, and every reading is a homecoming.'},
-  {name:'Nisha Kapoor', role:'Singer', img:'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop', bio:'Her melodies carry the weight of untold stories and ancient echoes.'},
-  {name:'Imran Ali', role:'Musician', img:'https://images.unsplash.com/photo-1531123414780-f55f5e6a88f6?q=80&w=800&auto=format&fit=crop', bio:'In his hands, instruments become vessels of emotion and memory.'}
+  {name:'?', role:'To Be Announced', img:'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="400"%3E%3Crect width="400" height="400" fill="%23e5d5c3"/%3E%3Ctext x="50%25" y="50%25" font-size="200" text-anchor="middle" dominant-baseline="middle" fill="%238b7355" font-family="serif"%3E%3F%3C/text%3E%3C/svg%3E', bio:'Stay tuned for our special guest.'},
+  {name:'?', role:'To Be Announced', img:'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="400"%3E%3Crect width="400" height="400" fill="%23e5d5c3"/%3E%3Ctext x="50%25" y="50%25" font-size="200" text-anchor="middle" dominant-baseline="middle" fill="%238b7355" font-family="serif"%3E%3F%3C/text%3E%3C/svg%3E', bio:'Stay tuned for our special guest.'},
+  {name:'?', role:'To Be Announced', img:'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="400"%3E%3Crect width="400" height="400" fill="%23e5d5c3"/%3E%3Ctext x="50%25" y="50%25" font-size="200" text-anchor="middle" dominant-baseline="middle" fill="%238b7355" font-family="serif"%3E%3F%3C/text%3E%3C/svg%3E', bio:'Stay tuned for our special guest.'},
+  {name:'?', role:'To Be Announced', img:'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="400"%3E%3Crect width="400" height="400" fill="%23e5d5c3"/%3E%3Ctext x="50%25" y="50%25" font-size="200" text-anchor="middle" dominant-baseline="middle" fill="%238b7355" font-family="serif"%3E%3F%3C/text%3E%3C/svg%3E', bio:'Stay tuned for our special guest.'}
 ]
 
 export default function Guests(){
