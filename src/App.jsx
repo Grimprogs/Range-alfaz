@@ -8,7 +8,7 @@ import AudioControl from './components/AudioControl'
 export default function App(){
   return (
     <div>
-      <a className="submit-btn submit-btn--left" href="https://docs.google.com/forms/d/e/1FAIpQLSdTDzOjJWSVX6L7drA56p6IOPKQg6GtECuKkJRtUYCWRXgJgA/viewform" target="_blank" rel="noopener">Submit Poem / Story</a>
+      <a className="submit-btn submit-btn--left" href="https://docs.google.com/forms/d/e/1FAIpQLSdTDzOjJWSVX6L7drA56p6IOPKQg6GtECuKkJRtUYCWRXgJgA/viewform" title="Submit your poem, song, or story" aria-label="Submit your poem, song, or story" target="_blank" rel="noopener">Submit Poem / Song / Story</a>
       <AudioControl />
       <Hero />
       <main className="scroll-container">
